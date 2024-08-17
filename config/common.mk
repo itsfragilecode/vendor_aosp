@@ -128,10 +128,6 @@ endif
 # Bootanimation
 include vendor/aosp/config/bootanimation.mk
 
-# BtHelper
-PRODUCT_PACKAGES += \
-    BtHelper
-
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images \
@@ -186,10 +182,6 @@ PRODUCT_PACKAGES += \
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.storage_manager.enabled=true
-
-# TouchGestures
-PRODUCT_PACKAGES += \
-    TouchGestures
 
 # These packages are excluded from user builds
 PRODUCT_PACKAGES_DEBUG += \
